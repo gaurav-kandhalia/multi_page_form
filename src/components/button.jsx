@@ -7,7 +7,7 @@ const Btn = ({ btn_type, btn_color,click_btn,btn_visibilty,go_back}) => {
  
     return (
         <>
-            <div className=" flex justify-between  mt-16 ">
+            <div className=" flex justify-between  sm:mt-16   sm:w-full">
 
                 <button type="submit" className={`p-2 text-[rgb(2,41,90)]  font-[500] border rounded-lg ${btn_visibilty}`} onClick={go_back} >Go back</button>
 
